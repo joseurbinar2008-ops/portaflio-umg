@@ -1,0 +1,62 @@
+
+
+.titulo-modulos{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.modulos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.boton{
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.boton:hover{
+    background: #0055aa;
+    transform: scale(1.05);
+}
+
+.contenido-modulo{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.botones-regreso{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+@media(max-width: 768px){
+
+    .logo-datos{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .modulos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+.imagen-tema{
+    width: 300px;
+    border-radius: 10px;
+}
